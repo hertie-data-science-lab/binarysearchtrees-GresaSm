@@ -10,7 +10,7 @@ print("Inorder traversal of the given tree")
 print_inorder(root)
 
 binary_tree_to_bst(root)
-print("Inorder traversal of the converted Binary Search Tree is")
+print("Inorder traversal of the converted Binary Search Tree is:")
 print_inorder(root)
 
 
