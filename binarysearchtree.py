@@ -18,6 +18,8 @@ def countNodes(root):
         return 0
     return countNodes(root.left) + countNodes(root.right) + 1
 
+'''function to convert binary tree to binary search tree'''
+
 def array_to_bst (arr, root):
     if root is None:
         return
